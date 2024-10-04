@@ -1,4 +1,7 @@
 package s5_dokotera.repository;
 
-public interface SymptomeRepository extends org.springframework.data.jpa.repository.JpaRepository<s5_dokotera.model.Symptome, java.lang.Integer> {
+import org.springframework.data.jpa.repository.JpaRepository;
+import s5_dokotera.model.Symptome;
+
+public interface SymptomeRepository extends JpaRepository<Symptome, Integer> {
 }
